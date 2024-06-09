@@ -1,0 +1,64 @@
+.login{
+    min-height: calc(100vh - 80px); /*80 px is height of topbar  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5), /*the very bright image became blurred*/
+        rgba(255, 255, 255, 0.5)
+        ),
+    url(../../images/Pic3.jpg);
+    background-size: cover;
+}
+
+.login-title{
+    font-size: 50px;
+}
+
+.login-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form > Label{
+    margin:10px 0; 
+}
+
+.login-input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.login-button{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.login-button:disabled {
+    cursor: not-allowed;
+    background-color: coral;
+}
+
+.login-register-button{
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    color: red;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login-register-button > .link{
+    color: white;
+}

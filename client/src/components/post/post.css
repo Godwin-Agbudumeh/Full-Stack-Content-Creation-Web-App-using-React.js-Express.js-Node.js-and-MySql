@@ -1,0 +1,81 @@
+.post .card-meta-blogpost {
+    color: #333;
+    font-size: 14px;
+    padding: 16px;
+}
+
+.post .card-meta-blogpost .link{
+    color: teal;
+}
+
+.post .card-image-box {
+    transition: 0.4s;
+}
+
+.post .card-image-box:hover {
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.post .card-description {
+    padding: 0 8px;
+}
+
+.post .card-description-title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.post .card-description-title:hover {
+    color: teal;
+}
+
+.post .card-description-post {
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.post .card-description-post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.read-more {
+    display: inline-block;
+    text-decoration: none;
+    color: teal;
+    padding: 8px 24px;
+    border: 3px solid black;
+    border-radius: 15px;
+    transition: 0.4s;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+}
+
+.read-more:hover {
+    background: teal;
+    text-decoration: none;
+    padding: 8px 64px 8px 24px;
+    color: white;
+    border-radius: 15px;
+}
+
+
+@media screen and (min-width:900px){
+    .post {
+        width: 45%;
+    }
+}

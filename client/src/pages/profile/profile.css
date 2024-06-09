@@ -1,0 +1,38 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+}
+
+.profile-photo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.profile-photo-wrapper .profile-photo{
+    width: 20%;
+    height: 20%;
+    margin-left: 1rem;
+    border-radius: 50%;
+}
+
+.profile-help, .profile-edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 1rem;
+}
+
+.profile .about-me{
+    border: 2px solid teal;
+    padding: 3px;
+    cursor: not-allowed;
+} 
+
+.profile .about-me:focus{
+    outline: none;
+}

@@ -1,0 +1,163 @@
+.edit-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* User details */
+.user-details-form{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9;
+    margin-top: 1.5rem;
+}
+
+.user-details-form .user-details-heading{ 
+    align-self: center;
+}
+
+.user-details-form input {
+    border: none;
+    border-bottom: 2px solid teal;
+    width: 200px;
+}
+
+.user-details-form input:focus {
+    outline: none;
+}
+
+.user-details-form button {
+    margin-top: 1.5rem;
+    background-color: white;
+    color: teal;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 0.9rem;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.user-details-button:disabled {
+    cursor: not-allowed;
+    background-color: coral;
+}
+
+/* Profile photo */
+.profile-photo-form {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo-form img {
+    width: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-photo-form button {
+    margin-top: 1.5rem;
+    background-color: white;
+    color: teal;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 0.9rem;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.profile-photo-button:disabled {
+    cursor: not-allowed;
+    background-color: coral;
+}
+
+/* About me */
+.about-me-form {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-form textarea {
+    border: 2px solid teal;
+}
+
+.about-me-form textarea:focus {
+    outline: none;
+}
+
+.about-me-form button {
+    margin-top: 1.5rem;
+    background-color: white;
+    color: teal;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 0.9rem;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+/*Change password*/
+.reset-password-button{
+ color: red;
+ background-color: white;
+ margin-top: 1rem;
+ border: 2px solid black;
+ padding: 2px;
+}
+
+.change-password-form{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-password-form input {
+    border: none;
+    border-bottom: 2px solid teal;
+    width: 200px;
+}
+
+.change-password-form input:focus{
+    outline: none;
+}
+
+.change-password-form button{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: teal;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 0.9rem;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+/*View profile*/
+.view-profile{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: teal;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 0.9rem;
+    font-weight: 1000;
+    cursor: pointer;
+}

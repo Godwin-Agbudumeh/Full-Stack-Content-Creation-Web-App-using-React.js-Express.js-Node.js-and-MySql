@@ -1,0 +1,41 @@
+.home-children {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-heading {
+    color: #333;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    border-left: 3px solid #008080;
+    border-right: 3px solid teal;
+    transition: all 0.4s;
+    display: inline-block;
+    padding: 4px 32px;
+    margin: 20px 0;
+}
+
+.home-heading:hover {
+    padding: 4px 48px;
+    background: teal;
+    color: white;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+ .home-pagination {
+    text-align: center;
+} 
+
+/* media queries */
+@media screen and (min-width:900px){
+    .home-children {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .home-children .posts-section{
+        flex: 9;
+        width: 100%;
+    }
+}
