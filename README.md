@@ -5,6 +5,7 @@ This is a site used to create content about programming. It is built with React,
 Installation and Setup Instructions
 
 To clone this repository, make sure that node and npm is installed globally on your machine.
+
 Installation:
 npm install
 
