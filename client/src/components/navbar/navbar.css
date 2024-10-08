@@ -16,6 +16,12 @@
     flex: 3;
 }
 
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav-center{
     flex: 6;
 }
@@ -145,6 +151,10 @@
 
 /*Media queries*/
 @media screen and (max-width:900px) {
+    .nav-left {
+        justify-content: flex-start;
+    }
+
    .nav-center,
     .nav-right,
     .search-input {

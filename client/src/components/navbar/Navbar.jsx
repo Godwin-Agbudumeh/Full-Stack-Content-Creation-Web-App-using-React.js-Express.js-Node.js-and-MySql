@@ -43,9 +43,7 @@ export default function Navbar() {
               <ul className="list">
                 <li className="list-item"><Link to="/" className="link">Home</Link></li>
                 <li className="list-item"><Link to="/write" className="link">Create Post</Link></li>
-                <li className="list-item"><Link to="/" className="link">About</Link></li>
                 <li className="list-item"><Link to="/" className="link">Posts</Link></li>
-                <li className="list-item"><Link to="/" className="link">Contact</Link></li>
               </ul>
             </div>
 
@@ -85,8 +83,6 @@ export default function Navbar() {
                 <ul className="mobile-list">
                   <li className="mobile-list-item"><Link to="/" className="link" onClick={handleSlide}>Home</Link></li>
                   <li className="mobile-list-item"><Link to="/write" className="link" onClick={handleSlide}>Create Post</Link></li>
-                  <li className="mobile-list-item"><Link to="/" className="link" onClick={handleSlide}>About</Link></li>
-                  <li className="mobile-list-item"><Link to="/" className="link" onClick={handleSlide}>Contact</Link></li>
                   <li className="mobile-list-item"><Link to="/" className="link" onClick={handleSlide}>Posts</Link></li>
                   <li className="mobile-list-item"><input type="text" placeholder="Search here...."/><Link to={`/?searchposts=${searchinput}`}><i className="fa-solid fa-magnifying-glass mobile-search-icon" onClick={handleSlide}></i></Link></li>
                 </ul>

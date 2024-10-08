@@ -8,6 +8,8 @@ import {useLocation} from "react-router";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
+console.log("testing")
+
 export default function Home() {
   const [posts, setPosts] = useState([]);
   const [isfetching, setIsFetching] = useState(true)
