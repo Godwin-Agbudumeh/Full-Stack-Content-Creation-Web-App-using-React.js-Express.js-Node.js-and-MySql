@@ -5,7 +5,6 @@
     align-items: center;
     background-color: white;
     border-bottom: 2px solid grey;
-    color: teal;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -56,7 +55,7 @@
 }
 
 .site-title .link{
-    color: teal;
+    color: rgb(46, 47, 47);
 }
 
 /* nav-center */
@@ -81,7 +80,7 @@
 }
 
 .nav-right .search-icon {
-    color: teal;
+    color: rgb(46, 47, 47);
     margin-left: 5px;
     padding-right: 5px;
 }
@@ -129,7 +128,7 @@
 }
 
 .search-input .search-button{
-    color: teal;
+    color: rgb(46, 47, 47);
 }
 
 /* Mobile Menu */
@@ -160,6 +159,10 @@
     .search-input {
         display: none;
     }
+    
+    .mobile-menu{
+        color: rgb(46, 47, 47);
+    }
 
     .mobile-nav {
         margin-right: 20px;
@@ -187,7 +190,7 @@
         display: flex;
         position: absolute;
         top:80px;
-        background-color: teal;
+        background-color: rgb(80, 100, 100);
         width: 100%; 
     }
 
