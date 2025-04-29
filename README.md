@@ -13,4 +13,4 @@ To start server:
 npm start
 
 To visit App:
-www.devlyf.com
+godwin-content-site.vercel.app
