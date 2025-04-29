@@ -13,4 +13,4 @@ To start server:
 npm start
 
 To visit App:
-godwin-content-site.vercel.app
+https://godwin-content-site.vercel.app
